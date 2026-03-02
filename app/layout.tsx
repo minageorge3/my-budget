@@ -5,9 +5,18 @@ import { Toaster } from "sonner";
 import Contact from "./components/contact";
 
 export const metadata: Metadata = {
-  title: "Budget Tracker",
-  description: "an app to manage the expenses",
-};
+  title: 'Private Budget - لإدارة المصاريف الشخصية',
+  description: 'أفضل تطبيق بسيط وآمن لإدارة مصاريفك الشخصية ومتابعة ميزانيتك اليومية.',
+  keywords: 'ميزانية, مصاريف, محاسبة, مينا, budget, expenses, personal finance',
+  // الحركة دي عشان لما تبعت اللينك على واتساب يظهر بشكل احترافي
+  openGraph: {
+    title: 'تطبيق ميزانية | Private Budget',
+    description: 'تحكم في مصاريفك بسهولة مع تطبيق ميزانية ',
+    type: 'website',
+  },
+}
+
+
 
 export default function RootLayout({
   children,
@@ -33,7 +42,7 @@ export default function RootLayout({
               <Link href="/charts" className="hover:bg-blue-800 px-3 py-2 rounded-md transition">
                 Charts
               </Link>
-              
+
             </div>
           </div>
         </nav>
