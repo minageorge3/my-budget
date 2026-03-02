@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 export const metadata: Metadata = {
   title: 'Private Budget - لإدارة المصاريف الشخصية',
   description: 'أفضل تطبيق بسيط وآمن لإدارة مصاريفك الشخصية ومتابعة ميزانيتك اليومية.',
-  keywords: 'ميزانية, مصاريف, محاسبة, مينا, budget, expenses, personal finance',
+  keywords: 'ميزانية, مصاريف, محاسبة, مينا, budget, expenses, personal finance,mina said budget',
   // الحركة دي عشان لما تبعت اللينك على واتساب يظهر بشكل احترافي
   openGraph: {
     title: 'تطبيق ميزانية | Private Budget',
